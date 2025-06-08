@@ -167,9 +167,8 @@ python run_pipeline.py
 ```
 # Run ETL pipeline every 5 minutes
 */5 * * * * root . /app/.env && cd /app && python run_pipeline.py >> /var/log/cron.log 2>&1
-🔔 **Email Notifications:** the cron job runs the ETL every 5 minutes and sends an email each time to monitor execution status.
 ```
-
+🔔 **Email Notifications:** the cron job runs the ETL every 5 minutes and sends an email each time to monitor execution status.
 ---
 
 ## 🙋🏽‍♀️ Author
