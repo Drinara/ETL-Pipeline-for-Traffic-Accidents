@@ -68,7 +68,7 @@ To reduce redundancy and support efficient querying, we normalized the data into
 
 ```
 
-## ⚙️ Technologies Used
+### ⚙️ Technologies Used
 
 - **Python** – Cleaning, transformation, ML
 - **PostgreSQL** – Normalized storage, queries
@@ -136,6 +136,7 @@ Connected to PostgreSQL views.
 - Highest injury avg at **pedestrian crossings**
 - ❗ Action: Improve pedestrian signaling and physical crossings
 
+```
 ---
 
 ## ▶️ How to Run the Project
