@@ -21,6 +21,7 @@ def main():
 
         # Load cleaned dataset
         df = pd.read_csv(CLEANED_PATH)
+        print(df.shape)
         print("Dataset Loaded. Data types:\n", df.dtypes)
 
         # Split dataset

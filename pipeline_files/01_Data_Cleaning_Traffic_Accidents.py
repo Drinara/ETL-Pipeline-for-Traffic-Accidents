@@ -32,6 +32,10 @@ def main():
             np.nan, inplace=True
         )
 
+        # Drop rows with any nulls
+        df = df.dropna()
+        print("Shape after dropping rows with null values:", df.shape)
+
         # Clean lighting_condition
         df['lighting_condition'] = df['lighting_condition'].astype(str).str.replace(',', ' AND ')
 
