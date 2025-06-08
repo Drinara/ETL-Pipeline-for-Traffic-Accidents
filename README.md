@@ -1,4 +1,4 @@
-
+```
 
 # 🚦 Traffic Accident Analytics Pipeline with ETL, PostgreSQL, ML & Power BI
 
@@ -66,7 +66,7 @@ To reduce redundancy and support efficient querying, we normalized the data into
 - Defined relationships between crash events and descriptive attributes (injury)
 - Seperated into 2 tables `traffic incidents` and `injury data`
 
-```
+
 
 ### ⚙️ Technologies Used
 
