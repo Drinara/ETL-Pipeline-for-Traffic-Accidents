@@ -1,0 +1,8 @@
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# Run ETL pipeline every 5 minutes
+*/5 * * * * root . /app/.env && cd /app && python run_pipeline.py >> /var/log/cron.log 2>&1
+
+# Run ML training daily at 2 AM
+0 2 * * * root . /app/.env && cd /app && python ml_modeling/02_ml_model_injury_occured.py >> /var/log/cron.log 2>&1
