@@ -136,7 +136,7 @@ Connected to PostgreSQL views.
 - Highest injury avg at **pedestrian crossings**
 - ❗ Action: Improve pedestrian signaling and physical crossings
 
-```
+
 ---
 
 ## ▶️ How to Run the Project
