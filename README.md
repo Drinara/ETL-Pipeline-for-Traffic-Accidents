@@ -164,8 +164,6 @@ python run_pipeline.py
 
 * `crontab.txt`: Used to simulate automatic daily or ETL scheduling (Linux/Unix-style)
 * Cron job entry (example):
-
-  ```
 # Run ETL pipeline every 5 minutes
 */5 * * * * root . /app/.env && cd /app && python run_pipeline.py >> /var/log/cron.log 2>&1
   ```
