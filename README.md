@@ -186,7 +186,4 @@ EU Business School – Munich
 
 * Integrate real-time crash feeds (e.g., API)
 * Deploy ML model as a REST API
-* Schedule Power BI dashboard refresh via gateway
 
-```
-```
