@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🚦 Traffic Accident Analytics Pipeline with ETL, PostgreSQL, ML & Power BI
 
 This project presents a complete analytics pipeline for traffic accident data using **ETL (Extract, Transform, Load)**, **relational modeling**, **machine learning**, and **data visualization**. Built with Docker, Python, PostgreSQL, and Power BI, this pipeline delivers insights that support road safety improvements and policy decision-making.
