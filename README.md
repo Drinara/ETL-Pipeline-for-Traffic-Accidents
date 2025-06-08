@@ -8,7 +8,6 @@ This project presents a complete analytics pipeline for traffic accident data us
 
 ## 📁 Project Structure
 
-```
 
 new BI ETL/
 ├── Dockerfile
